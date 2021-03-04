@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import UIKit
+
+protocol AlertShowDelegate {
+    func showAlert(alertController: UIAlertController)
+}

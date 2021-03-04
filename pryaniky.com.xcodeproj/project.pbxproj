@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EC647BB644E963B785E35C2 /* Pods_pryaniky_com.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE7304A3224430E6D0CA682 /* Pods_pryaniky_com.framework */; };
 		8726B97625F0EFF200BF3C24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726B97525F0EFF200BF3C24 /* AppDelegate.swift */; };
 		8726B97825F0EFF200BF3C24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726B97725F0EFF200BF3C24 /* SceneDelegate.swift */; };
-		8726B97A25F0EFF200BF3C24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726B97925F0EFF200BF3C24 /* ViewController.swift */; };
+		8726B97A25F0EFF200BF3C24 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726B97925F0EFF200BF3C24 /* MainViewController.swift */; };
 		8726B97D25F0EFF200BF3C24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8726B97B25F0EFF200BF3C24 /* Main.storyboard */; };
 		8726B97F25F0EFF300BF3C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8726B97E25F0EFF300BF3C24 /* Assets.xcassets */; };
 		8726B98225F0EFF300BF3C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8726B98025F0EFF300BF3C24 /* LaunchScreen.storyboard */; };
+		87EAD36925F0F6C90002A06D /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD36825F0F6C90002A06D /* MenuModel.swift */; };
+		87EAD37625F117980002A06D /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD37425F117980002A06D /* PictureCell.swift */; };
+		87EAD37725F117980002A06D /* PictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD37525F117980002A06D /* PictureCell.xib */; };
+		87EAD38825F1260C0002A06D /* SelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD38625F1260C0002A06D /* SelectorCell.swift */; };
+		87EAD38925F1260C0002A06D /* SelectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD38725F1260C0002A06D /* SelectorCell.xib */; };
+		87EAD38F25F126C10002A06D /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD38D25F126C10002A06D /* ButtonCell.swift */; };
+		87EAD39025F126C10002A06D /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD38E25F126C10002A06D /* ButtonCell.xib */; };
+		87EAD39925F132480002A06D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD39825F132480002A06D /* MainViewModel.swift */; };
+		87EAD3B125F145EA0002A06D /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD3AF25F145EA0002A06D /* TextCell.xib */; };
+		87EAD3B225F145EA0002A06D /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD3B025F145EA0002A06D /* TextCell.swift */; };
+		87EAD3BD25F151270002A06D /* MainViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD3BC25F151270002A06D /* MainViewModelDelegate.swift */; };
+		87EAD3C425F154D90002A06D /* MainViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD3C325F154D90002A06D /* MainViewType.swift */; };
+		87EAD3D225F175F20002A06D /* AlertShowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD3D125F175F20002A06D /* AlertShowDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20393A61D13C9701B5AD5655 /* Pods-pryaniky.com.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pryaniky.com.release.xcconfig"; path = "Target Support Files/Pods-pryaniky.com/Pods-pryaniky.com.release.xcconfig"; sourceTree = "<group>"; };
+		3BE7304A3224430E6D0CA682 /* Pods_pryaniky_com.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pryaniky_com.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8726B97225F0EFF200BF3C24 /* pryaniky.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pryaniky.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8726B97525F0EFF200BF3C24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8726B97725F0EFF200BF3C24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8726B97925F0EFF200BF3C24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8726B97925F0EFF200BF3C24 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8726B97C25F0EFF200BF3C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8726B97E25F0EFF300BF3C24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8726B98125F0EFF300BF3C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8726B98325F0EFF300BF3C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87EAD36825F0F6C90002A06D /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		87EAD37425F117980002A06D /* PictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
+		87EAD37525F117980002A06D /* PictureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureCell.xib; sourceTree = "<group>"; };
+		87EAD38625F1260C0002A06D /* SelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorCell.swift; sourceTree = "<group>"; };
+		87EAD38725F1260C0002A06D /* SelectorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectorCell.xib; sourceTree = "<group>"; };
+		87EAD38D25F126C10002A06D /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		87EAD38E25F126C10002A06D /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		87EAD39825F132480002A06D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		87EAD3AF25F145EA0002A06D /* TextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TextCell.xib; path = pryaniky.com/View/TextCell/TextCell.xib; sourceTree = "<group>"; };
+		87EAD3B025F145EA0002A06D /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextCell.swift; path = pryaniky.com/View/TextCell/TextCell.swift; sourceTree = "<group>"; };
+		87EAD3BC25F151270002A06D /* MainViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelDelegate.swift; sourceTree = "<group>"; };
+		87EAD3C325F154D90002A06D /* MainViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewType.swift; sourceTree = "<group>"; };
+		87EAD3D125F175F20002A06D /* AlertShowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertShowDelegate.swift; sourceTree = "<group>"; };
+		F005D73F9BCC7C349D0F598B /* Pods-pryaniky.com.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pryaniky.com.debug.xcconfig"; path = "Target Support Files/Pods-pryaniky.com/Pods-pryaniky.com.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EC647BB644E963B785E35C2 /* Pods_pryaniky_com.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		166F142ECEAC12BE340B9221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BE7304A3224430E6D0CA682 /* Pods_pryaniky_com.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6179F980CCDC5BE2D12BFAF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F005D73F9BCC7C349D0F598B /* Pods-pryaniky.com.debug.xcconfig */,
+				20393A61D13C9701B5AD5655 /* Pods-pryaniky.com.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8726B96925F0EFF200BF3C24 = {
 			isa = PBXGroup;
 			children = (
 				8726B97425F0EFF200BF3C24 /* pryaniky.com */,
 				8726B97325F0EFF200BF3C24 /* Products */,
+				6179F980CCDC5BE2D12BFAF9 /* Pods */,
+				166F142ECEAC12BE340B9221 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +108,91 @@
 			children = (
 				8726B97525F0EFF200BF3C24 /* AppDelegate.swift */,
 				8726B97725F0EFF200BF3C24 /* SceneDelegate.swift */,
-				8726B97925F0EFF200BF3C24 /* ViewController.swift */,
+				87EAD3C625F161460002A06D /* Protocols */,
+				87EAD39C25F132710002A06D /* ViewModel */,
+				87EAD39625F12E5D0002A06D /* View */,
+				87EAD39425F12E540002A06D /* Model */,
 				8726B97B25F0EFF200BF3C24 /* Main.storyboard */,
 				8726B97E25F0EFF300BF3C24 /* Assets.xcassets */,
 				8726B98025F0EFF300BF3C24 /* LaunchScreen.storyboard */,
 				8726B98325F0EFF300BF3C24 /* Info.plist */,
 			);
 			path = pryaniky.com;
+			sourceTree = "<group>";
+		};
+		87EAD37C25F11C1F0002A06D /* PictureCell */ = {
+			isa = PBXGroup;
+			children = (
+				87EAD37425F117980002A06D /* PictureCell.swift */,
+				87EAD37525F117980002A06D /* PictureCell.xib */,
+			);
+			path = PictureCell;
+			sourceTree = "<group>";
+		};
+		87EAD37F25F11C4E0002A06D /* TextCell */ = {
+			isa = PBXGroup;
+			children = (
+				87EAD3B025F145EA0002A06D /* TextCell.swift */,
+				87EAD3AF25F145EA0002A06D /* TextCell.xib */,
+			);
+			name = TextCell;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		87EAD38B25F126100002A06D /* SelectorCell */ = {
+			isa = PBXGroup;
+			children = (
+				87EAD38625F1260C0002A06D /* SelectorCell.swift */,
+				87EAD38725F1260C0002A06D /* SelectorCell.xib */,
+				87EAD39225F1277D0002A06D /* ButtonCell */,
+			);
+			path = SelectorCell;
+			sourceTree = "<group>";
+		};
+		87EAD39225F1277D0002A06D /* ButtonCell */ = {
+			isa = PBXGroup;
+			children = (
+				87EAD38D25F126C10002A06D /* ButtonCell.swift */,
+				87EAD38E25F126C10002A06D /* ButtonCell.xib */,
+			);
+			path = ButtonCell;
+			sourceTree = "<group>";
+		};
+		87EAD39425F12E540002A06D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87EAD36825F0F6C90002A06D /* MenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		87EAD39625F12E5D0002A06D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8726B97925F0EFF200BF3C24 /* MainViewController.swift */,
+				87EAD38B25F126100002A06D /* SelectorCell */,
+				87EAD37F25F11C4E0002A06D /* TextCell */,
+				87EAD37C25F11C1F0002A06D /* PictureCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87EAD39C25F132710002A06D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				87EAD39825F132480002A06D /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		87EAD3C625F161460002A06D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				87EAD3BC25F151270002A06D /* MainViewModelDelegate.swift */,
+				87EAD3C325F154D90002A06D /* MainViewType.swift */,
+				87EAD3D125F175F20002A06D /* AlertShowDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8726B98625F0EFF300BF3C24 /* Build configuration list for PBXNativeTarget "pryaniky.com" */;
 			buildPhases = (
+				EA8D0C0C9FD55AF7A5B89CF0 /* [CP] Check Pods Manifest.lock */,
 				8726B96E25F0EFF200BF3C24 /* Sources */,
 				8726B96F25F0EFF200BF3C24 /* Frameworks */,
 				8726B97025F0EFF200BF3C24 /* Resources */,
+				A7A29F51F5A9FE7ACFA56E8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,7 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EAD38925F1260C0002A06D /* SelectorCell.xib in Resources */,
+				87EAD37725F117980002A06D /* PictureCell.xib in Resources */,
+				87EAD3B125F145EA0002A06D /* TextCell.xib in Resources */,
 				8726B98225F0EFF300BF3C24 /* LaunchScreen.storyboard in Resources */,
+				87EAD39025F126C10002A06D /* ButtonCell.xib in Resources */,
 				8726B97F25F0EFF300BF3C24 /* Assets.xcassets in Resources */,
 				8726B97D25F0EFF200BF3C24 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +266,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A7A29F51F5A9FE7ACFA56E8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pryaniky.com/Pods-pryaniky.com-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pryaniky.com/Pods-pryaniky.com-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pryaniky.com/Pods-pryaniky.com-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA8D0C0C9FD55AF7A5B89CF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pryaniky.com-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8726B96E25F0EFF200BF3C24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8726B97A25F0EFF200BF3C24 /* ViewController.swift in Sources */,
+				87EAD3B225F145EA0002A06D /* TextCell.swift in Sources */,
+				87EAD36925F0F6C90002A06D /* MenuModel.swift in Sources */,
+				87EAD3D225F175F20002A06D /* AlertShowDelegate.swift in Sources */,
+				87EAD38825F1260C0002A06D /* SelectorCell.swift in Sources */,
+				8726B97A25F0EFF200BF3C24 /* MainViewController.swift in Sources */,
+				87EAD3C425F154D90002A06D /* MainViewType.swift in Sources */,
+				87EAD3BD25F151270002A06D /* MainViewModelDelegate.swift in Sources */,
+				87EAD37625F117980002A06D /* PictureCell.swift in Sources */,
 				8726B97625F0EFF200BF3C24 /* AppDelegate.swift in Sources */,
 				8726B97825F0EFF200BF3C24 /* SceneDelegate.swift in Sources */,
+				87EAD38F25F126C10002A06D /* ButtonCell.swift in Sources */,
+				87EAD39925F132480002A06D /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +468,7 @@
 		};
 		8726B98725F0EFF300BF3C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F005D73F9BCC7C349D0F598B /* Pods-pryaniky.com.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +488,7 @@
 		};
 		8726B98825F0EFF300BF3C24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20393A61D13C9701B5AD5655 /* Pods-pryaniky.com.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

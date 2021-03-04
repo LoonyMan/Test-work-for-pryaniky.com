@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,6 +14,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        let url = URL(string: "https://pryaniky.com/static/img/logo-a-512.png")
+        ImageDownloader.default.downloadImage(with: url!, options: []) { result in
+            switch result {
+            case .success(let value):
+                print("Image downloaded: \(value.image)")
+                ImageCache.default.store(value.image, forKey: url!.absoluteString)
+                
+            case .failure(let err):
+                print("Err \(err)")
+            }
+        }
         // Override point for customization after application launch.
         return true
     }

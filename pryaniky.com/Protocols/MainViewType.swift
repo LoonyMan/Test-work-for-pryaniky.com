@@ -9,5 +9,6 @@ import Foundation
 
 protocol MainViewType {
     func numberOfRows() -> Int
-    func takeDataForRow(indexPath: Int) -> MainData
+    func getDataForRow(indexPath: Int) -> MainData
+    func getInfoAboutCell(indexPath: Int) -> String 
 }
